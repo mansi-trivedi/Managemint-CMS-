@@ -1,0 +1,54 @@
+.errorPage{
+    height: auto;
+    margin-top: 0px;  
+    height : 720px;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+}
+
+.errorImg{
+    width: 49%;
+    height: 100vh;
+}
+
+.errorImg img{
+    margin-left: 10vh;
+    width: 90%;
+    height: 90%;
+}
+
+.errorData{
+    text-align: center;
+    padding: 100px;
+    padding-left: 10px;
+    width: 49%;
+    height: 100vh;
+    margin-right: 20px;
+}
+
+.errorData h1{
+    font-weight: bold;
+    font-size: 100px;
+    color: rgb(87, 142, 236);;
+}
+
+.errorData h2{
+    font-weight: bold;
+    font-weight: 600;
+}
+
+.errorData p{
+    font-weight: 500;
+    font-style: italic;
+}
+
+.errorData button{
+    text-transform: uppercase;
+    color: white;
+    background: rgb(124, 166, 239);
+    border: 2px solid rgb(124, 166, 239);;
+    border-radius: 15px;
+    padding: 10px;
+    font-weight: 600;
+    margin-top: 0px;
+}

@@ -1,0 +1,139 @@
+.draganddropstatement {
+  margin-top: 10px;
+}
+
+.draganddropstatement p {
+  font-style: italic;
+  font-size: small;
+}
+
+.draganddrop {
+  height: 44vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* input {
+  border: 1px solid green;
+} */
+
+.rdl-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.rdl-list-box {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  align-self: stretch;
+  overflow: auto;
+  height: 44vh;
+  width: 64vh;
+}
+
+.rdl-control-container {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+}
+
+.rdl-actions-right,
+.rdl-actions-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.rdl-btn {
+  border: 1px solid black;
+  border-radius: 2px;
+  background: rgb(207, 207, 207);
+  cursor: pointer;
+  padding: 5px 5px;
+  color: black;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.rdl-btn:active:not(:disabled),
+.rdl-btn:focus:not(:disabled) {
+  border-color: black;
+  background: rgb(241, 241, 241);
+}
+
+.rdl-btn:hover:not(:disabled) {
+  border-color: black;
+  background: rgb(223, 223, 223);
+}
+
+.rdl-btn:hover:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.rdl-icon {
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  font-variant: normal;
+  font-style: normal;
+}
+
+.rdl-control {
+  height: 38vh;
+  overflow-y: scroll;
+}
+
+.rdl-actions {
+  margin: 6px;
+  margin-top: 40px;
+}
+
+.rdl-control-label {
+  font-size: 16;
+  font-weight: 500;
+  margin-bottom: 2px;
+  margin-left: 10px;
+}
+
+.rdl-control {
+  padding: 5px;
+}
+
+.rdl-control option {
+  padding: 1px 8px;
+}
+
+.rdl-control option:hover {
+  background-color: rgb(218, 214, 219);
+  padding: 1px 8px;
+}
+
+.rdl-icon-move-all-right::before {
+  content: ">>";
+  font-weight: bold;
+}
+
+.rdl-icon-move-right::before {
+  content: ">";
+  font-weight: bold;
+}
+
+.rdl-icon-move-left::before {
+  content: "<";
+  font-weight: bold;
+}
+
+.rdl-icon-move-all-left::before {
+  content: "<<";
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 800px) {
+  .rdl-list-box {
+    width: 37vh;
+  }
+}

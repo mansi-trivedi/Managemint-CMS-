@@ -1,0 +1,22 @@
+.Error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ErrorContent{
+   text-align: center;
+   padding: 20%;
+}
+
+.ErrorContent h4{
+    font-weight: bold;
+    color: rgb(250, 65, 65);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.ErrorContent h6{
+    font-style: italic;
+    padding-top: 0px;
+}

@@ -1,0 +1,244 @@
+.userDetails {
+  float: right;
+  width: 83%;
+  height: 91vh;
+}
+
+.user_name {
+  display: flex;
+  align-items: center;
+  margin: 3vh 3vh;
+}
+
+.name {
+  margin-left: 2vh;
+  font-weight: bold;
+  color: rgb(56, 120, 231)
+}
+
+.user-details {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.detail {
+  background-color: rgb(247, 247, 247);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px 20px;
+  margin: 10px 20px;
+  border-radius: 10px;
+}
+
+.heading {
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.detail p {
+  margin-bottom: 0px;
+}
+
+.roleandgroup {
+  margin: 2vh 0vh 0vh 2vh;
+  height: 41vh;
+  overflow: auto;
+}
+
+.roleHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.roleHead h5 {
+  text-align: center;
+  margin: 2px 20px;
+}
+
+
+.selectedButton {
+  color: black;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px 10px;
+}
+
+.selectedButton:disabled{
+  color: rgb(205, 205, 205);
+  background-color: rgb(241, 241, 241);
+  border: 1px solid rgb(247, 247, 247);
+}
+
+.roleTableContent {
+  margin-top: 5px;
+}
+
+.roleTable {
+  width: 100%;
+  text-align: center;
+}
+
+.roleTable,
+td,
+tr,
+th {
+  padding: 10px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.roleTable tr:nth-child(n) {
+  border-bottom: solid 1px rgb(197, 196, 196);
+}
+
+
+.roleTable input {
+  width: 15px;
+  height: 15px;
+}
+
+.btnEditGroup{
+  display: flex;
+  justify-content: space-between;
+}
+
+.groupHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.groupHead h5 {
+  text-align: center;
+  margin: 2px 20px;
+}
+
+.addGroupButton {
+  background-color: rgb(99, 150, 240);
+  border: 1px solid rgb(99, 150, 240);
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  margin: 5px 10px;
+}
+
+.addGroupButton:hover {
+  background-color: rgb(53, 120, 235);
+  border: 1px solid rgb(53, 120, 235);
+}
+
+.groupTableContent {
+  margin-top: 5px;
+}
+
+.groupTable {
+  width: 100%;
+  text-align: center;
+}
+
+.groupTable,
+td,
+tr,
+th {
+  padding: 10px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.groupTable tr:nth-child(n) {
+  border-bottom: solid 1px rgb(197, 196, 196);
+}
+
+
+.groupTable input {
+  border: 1px solid black;
+  margin-top: 0px;
+  border-radius: 0px;
+  position: relative;
+}
+
+.AllUserGroupTableContent {
+  height: 50vh;
+  padding-top: 5px;
+  overflow-y: auto;
+  margin-left: 10px;
+}
+
+.AllUserGroupTable {
+  width: 100%;
+  text-align: center;
+}
+
+.AllUserGroupTable thead th {
+  position: sticky;
+  top: 0;
+  background-color: rgb(247, 247, 247);
+  text-align: center;
+}
+
+.AllgroupsCheckbox {
+  width: 15px;
+  height: 15px;
+}
+
+.AllUserGroupTable,
+td,
+tr,
+th {
+  padding: 10px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.AllUserGroupTable tr:nth-child(n) {
+  border-bottom: solid 1px rgb(197, 196, 196);
+}
+
+.AllUserGroupTable tr:last-child {
+  border-bottom: none;
+}
+
+.AllRoleTableContent {
+  height: 62vh;
+  padding-top: 5px;
+  overflow-y: auto;
+  margin-left: 10px;
+}
+
+.AllRoleTable {
+  width: 100%;
+  text-align: center;
+}
+
+.AllRoleTable thead th {
+  position: sticky;
+  top: 0;
+  background-color: rgb(247, 247, 247);
+  text-align: center;
+}
+
+.AllCheckbox {
+  width: 15px;
+  height: 15px;
+}
+
+.AllRoleTable,
+td,
+tr,
+th {
+  padding: 10px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.AllRoleTable tr:nth-child(n) {
+  border-bottom: solid 1px rgb(197, 196, 196);
+}
+
+.AllRoleTable tr:last-child {
+  border-bottom: none;
+}

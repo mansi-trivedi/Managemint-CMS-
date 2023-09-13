@@ -1,0 +1,101 @@
+.Welcome {
+    display: flex;
+    height: 100vh;
+}
+
+.welcomeContent {
+    width: 50%;
+    background-color: rgb(247, 247, 247);
+}
+
+.loginFormContent {
+    text-align: center;
+    margin: 9% 8% 0% 8%;
+}
+
+.loginFormContent h2 {
+    margin-top: 01%;
+    background: linear-gradient(315deg, #397fef 0%, #69ceea 74%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+}
+
+.loginForm {
+    background-color: rgb(247, 247, 247);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin: 7% 20% 12% 20%;
+    padding: 5%;
+    position: relative;
+    left: 0vh;
+}
+
+.form {
+    margin: 2%;
+}
+
+.form label {
+    font-weight: 500;
+    margin: 0px;
+}
+
+.forgotPassword {
+    text-align: center;
+    margin: 4%;
+}
+
+.forgotPasswordButton {
+    background-image: linear-gradient(315deg, #397fef 0%, #69ceea 74%);
+    border: 1px solid rgb(99, 150, 240);
+    padding: 1% 5%;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    margin: 5% 0% 0% 1%;
+}
+
+.forgotPassword p{
+    font-weight: 500;
+    font-style: italic;
+    font-size: small;
+    cursor: pointer;
+}
+
+.forgotPassword p:hover{
+    color: rgb(99, 150, 240);
+}
+
+.form input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(127, 167, 237);
+}
+
+.siteContent {
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #397fef 0%, #69ceea 74%);
+    box-shadow: rgba(119, 119, 119, 0.35) -5px 0px 15px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContentData {
+    color: white;
+    margin: 10%;
+    font-weight: 500;
+}
+
+.ContentData h3{
+    text-align: center;
+    margin: 2%;
+}
+
+.ContentData p{
+    text-align: center;
+    margin: 3%;
+}

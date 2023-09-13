@@ -1,0 +1,159 @@
+.header {
+  height: 9vh;
+  box-shadow: 0 8px 5px -6px rgb(218, 218, 218);
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(247, 247, 247);
+  /* background-color: rgb(237, 237, 237); */
+
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.logo img {
+  padding-top: 0px;
+  margin-right: 5px;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 120vh;
+}
+
+.moreDropdown {
+  position: fixed;
+  top: 9vh;
+  right: 45vh;
+  border-radius: 1vh;
+  box-shadow: 8px 8px 5px -6px rgb(218, 218, 218);
+  z-index: 1;
+  background-color: white;
+}
+
+.more span {
+  font-weight: 600;
+  font-size: larger;
+}
+
+._item {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 0vh 2vh;
+  display: flex;
+  align-items: center;
+  margin: 1vh;
+}
+
+._item:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  background-color: rgb(233, 233, 233);
+}
+
+._item_icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 8px;
+}
+
+._item-title {
+  padding-top: 3px;
+}
+
+.translation {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 126vh;
+}
+
+.translateDropdown {
+  position: fixed;
+  top: 9vh;
+  right: 30vh;
+  border-radius: 1vh;
+  box-shadow: 8px 8px 5px -6px rgb(218, 218, 218);
+  z-index: 1;
+  background-color: white;
+}
+
+.translateLink{
+  margin: 1vh;
+  padding: 0vh 1vh;
+}
+
+.translateLink span{
+  margin-left: 2vh;
+}
+
+.translateLink:hover{
+  background-color: rgb(233, 233, 233);
+}
+
+
+.userProfile {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 134vh;
+}
+
+.userName {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: large;
+}
+
+.profiledropDown {
+  position: fixed;
+  top: 9vh;
+  right: 10vh;
+  border-radius: 1vh;
+  box-shadow: 8px 8px 5px -6px rgb(218, 218, 218);
+  z-index: 1;
+  background-color: white;
+}
+
+.profile {
+  margin: 1vh;
+}
+
+.profile:hover{
+  background-color: rgb(233, 233, 233);
+}
+
+.profile button {
+  margin: 0vh 1vh;
+  padding: 0vh 1.1vh;
+  border: none;
+  background-color: inherit;
+}
+
+.profile span {
+  margin-left: 2vh;
+  color: black;
+} 
+
+@media only screen and (max-width:800px) {
+  .more {
+    left: 35vh;
+  }
+
+  .translation {
+    left: 45vh
+  }
+
+  .userProfile {
+    left: 55vh
+  }
+}

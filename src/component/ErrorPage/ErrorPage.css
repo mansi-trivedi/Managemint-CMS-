@@ -1,0 +1,37 @@
+.fallback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fallbackData {
+    text-align: center;
+    padding: 20%;
+}
+
+.fallbackData h4 {
+    font-weight: bold;
+    color: rgb(250, 65, 65);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.fallbackData h6 {
+    font-style: italic;
+    padding-top: 0px;
+}
+
+.fallbackWarning {
+    font-weight: 500;
+    font-size: small;
+    font-style: italic;
+}
+
+.fallbackWarning button {
+    margin-top: 5vh;
+    width: 7vh;
+    height: 7vh;
+    background-color: rgb(30, 107, 238);
+    border: 2px solid rgb(30, 107, 238);
+    border-radius: 5vh;
+}

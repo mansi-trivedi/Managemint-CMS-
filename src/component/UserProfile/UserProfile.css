@@ -1,0 +1,112 @@
+.userHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userHeading h4 {
+    margin: 4vh;
+    font-weight: bold;
+    color: rgb(84, 137, 230)
+}
+
+.backButton{
+    background-color: rgb(241, 60, 60);
+    border: 2px solid rgb(241, 60, 60);
+    font-weight: 500;
+    border-radius: 5px;
+    color: white;
+    margin-right: 5vh;
+}
+
+.backButton:hover{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.user-Profile-Details {
+    margin-top: 0px;
+    margin-left: 5vh;
+    width: 50%;
+}
+
+.user-Profile-Detail-table {
+    width: 100%;
+}
+
+.user-password {
+    display: flex;
+    height: 42vh;
+    overflow: auto;
+}
+
+.user-password h6 {
+    margin: 5vh 0vh 0vh 7vh;
+    font-weight: bold;
+    width: 10%;
+}
+
+.change-password {
+    width: 100%;
+    margin: 2vh 0vh 0vh 2vh;
+    padding-right: 0px;
+}
+
+.password {
+    margin-top: 15px;
+    display: flex;
+}
+
+.information {
+    display: flex;
+}
+
+.password input {
+    height: 6vh;
+    width: 50%;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.passwordInfo {
+    padding: 1vh;
+    height: 20vh;
+    width: 30vh;
+    font-size: x-small;
+    font-weight: 500;
+    margin-left: 0px;
+    position: absolute;
+    right: 60vh;
+    bottom: 13vh;
+    border-radius: 10px;
+    background-color: rgb(237, 237, 237);
+}
+
+.changePasswordButton {
+    margin: 20px;
+    position: absolute;
+    left: 570px;
+    background-color: rgb(99, 150, 240);
+    border: 1px solid rgb(99, 150, 240);
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.changePasswordButton:hover {
+    background-color: rgb(53, 120, 235);
+    border: 1px solid rgb(53, 120, 235);
+    font-weight: 500;
+}
+
+.error{
+    width: 30%;
+    margin: 0px;
+}
+
+@media only screen and (max-width:800px) {
+    .changePasswordButton {
+        left: 310px;
+    }
+}

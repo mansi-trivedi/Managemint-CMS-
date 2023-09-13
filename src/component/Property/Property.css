@@ -1,0 +1,139 @@
+.PropertyContent {
+  float: right;
+  width: 83%;
+  height: 91vh;
+}
+
+.contentHead {
+  display: flex;
+  align-items: center;
+  margin: 1.4vh 1vh 0vh 2vh;
+
+}
+
+.contentHeadtitle1 {
+  width: 10%;
+  font-weight: 600;
+  font-size: larger;
+}
+
+.contentHeadtitle2 {
+  padding-top: 0.5vh;
+  font-size: 2.5vh;
+  color: rgb(113, 113, 113);
+}
+
+.propertyTableContent {
+  height: 67vh;
+  padding-top: 0px;
+  overflow-y: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.propertyTable {
+  width: 100%;
+  text-align: center;
+}
+
+.propertyTable thead th {
+  position: sticky;
+  top: 0;
+  background-color: rgb(247, 247, 247);
+  text-align: center;
+}
+
+.propertyTable,
+td,
+tr,
+th {
+    padding: 10px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.noValue{
+  color: #ababab;
+}
+
+.propertyTable tr:nth-child(n) {
+    border-bottom: solid 1px rgb(197, 196, 196);
+}
+
+.propertyTable tr:last-child
+{
+   border-bottom: none;
+} 
+
+.search-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0vh 15px 1.5vh 15px;
+}
+
+.searchbar {
+  width: 100vh;
+}
+
+#myInput {
+  border-radius: 20px;
+  height: 5vh;
+}
+
+#button-action {
+  margin-right: 30px;
+}
+
+.form-input {
+  height: 35px;
+}
+
+.label-name {
+  font-weight: 500;
+}
+
+.actionButton{
+  background-color: rgb(99, 150, 240);
+  border: 1px solid rgb(99, 150, 240);
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.actionButton:hover{
+  background-color: rgb(53, 120, 235);
+  border: 1px solid rgb(53, 120, 235);
+}
+
+
+.pagination {
+  height: 7vh;
+  box-shadow: 0 -8px 5px -6px rgb(218, 218, 218);
+  background-color: rgb(247, 247, 247);
+}
+
+.deletePropertyModal {
+  text-align: start;
+}
+
+.noMatchedValue{
+  height: 57vh;
+}
+
+.noMatchedValue td{
+  font-weight: bold;
+  font-size: larger;
+  color: rgb(53, 120, 235);
+}
+
+
+@media only screen and (max-width:800px) {
+  .propertyTableContent{
+    height: 64vh;
+  }
+
+  .contentHeadtitle1{
+    width: 15%;
+  }
+}
+

@@ -1,0 +1,161 @@
+.editUserGroup {
+    float: right;
+    width: 83%;
+    height: 91vh;
+    overflow: hidden;
+}
+
+.editUserGroupTopNav {
+    display: flex;
+    border-bottom: 1px solid black;
+    align-items: center;
+    margin: 20px 10px 10px 10px;
+    padding-left: 20px;
+    display: flex;
+    position: fixed;
+    width: 81%;
+}
+
+.topNavItem {
+    padding: 5px 15px;
+    height: 40px;
+}
+
+.topNavItemActive {
+    padding: 5px 15px;
+    height: 40px;
+    background-color: rgb(237, 237, 237);
+    border-bottom: 3px solid rgb(57, 124, 241);
+}
+
+.topNavItemActive p {
+    font-weight: 500;
+}
+
+.topNavItem p {
+    font-weight: 500;
+}
+
+.editUserGroupHeading {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.UserGroupButton {
+    margin-right: 15px;
+}
+
+.editUserGroupButton {
+    padding: 5px;
+    margin: 20px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.editUserGroupSaveButton {
+    background-color: rgb(99, 150, 240);
+    border: 1px solid rgb(99, 150, 240);
+    color: white;
+    font-weight: 500;
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.editUserGroupSaveButton:hover {
+    background-color: rgb(56, 120, 231);
+}
+
+.editUserGroupCancelButton {
+    background-color: rgb(237, 237, 237);
+    border: 1px solid rgb(217, 217, 217);
+    font-weight: 500;
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.editUserGroupCancelButton:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+.editUserGroupForm {
+    width: 100%;
+    float: left;
+    padding: 1% 3%;
+}
+
+.editUserGroupForm label {
+    font-weight: 500;
+}
+
+.editUserGroupForm input {
+    border: 1px solid rgb(187, 187, 187);
+    width: 60%;
+    border-radius: 5px;
+    height: 40px;
+    padding-left: 5px;
+}
+
+.userGroupTitle {
+    margin-bottom: 20px;
+}
+
+#configurations {
+    height: 78vh;
+    position: relative;
+    top: 15%;
+}
+
+.configurationsOne {
+    height: 60vh;
+}
+
+#users {
+    margin-top: 3vh;
+}
+
+.all-user-group-name{
+    margin: 20px 50px;
+    padding-bottom: 0px;
+}
+
+.all-user-group-name-span1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.all-user-group-name-span2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.all-user-table-group{
+    height: 71vh;
+    margin-left: 5px;
+    overflow-y: auto;
+}
+
+.all-user-email-th-group {
+    width: 33%;
+}
+
+.all-user-fullname-th-group  {
+    width: 33%;
+}
+
+.all-user-last-active-th-group  {
+    width: 360px;
+}
+
+.all-user-tbody-group tr {
+    font-weight: 500;
+}
+
+.all-user-email-td-group {
+    color: rgb(72, 124, 220);
+    font-weight: 400;
+    cursor: pointer;
+}

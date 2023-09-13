@@ -1,0 +1,133 @@
+.RoleTableContent {
+  height: 78vh;
+  padding-top: 0px;
+  padding-left: 5px;
+  overflow-y: auto;
+  margin-right: 5px;
+}
+
+.RoleTable {
+  width: 100%;
+  text-align: center;
+}
+
+.RoleTable thead th {
+  position: sticky;
+  top: 0;
+  background-color: rgb(247, 247, 247);
+  text-align: center;
+}
+
+.RoleTable,
+td,
+tr,
+th {
+  padding: 10px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.RoleTable tr:nth-child(n) {
+  border-bottom: solid 1px rgb(197, 196, 196);
+}
+
+.RoleTable tr:last-child {
+  border-bottom: none;
+}
+
+.btn-group-roles{
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn-add-roles {
+  background-color: rgb(99, 150, 240);
+  border: 1px solid rgb(99, 150, 240);
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  margin: 5px 10px;
+  height: 30px;
+}
+
+#btn-add-roles:hover {
+  background-color: rgb(53, 120, 235);
+  border: 1px solid rgb(53, 120, 235);
+}
+
+#btn-delete-roles{
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  margin: 5px 10px;
+  height: 30px;
+}
+
+
+#btn-delete-roles:hover{
+  background-color: rgb(194, 32, 32);
+  border: 1px solid rgb(194, 32, 32);
+}
+
+#btn-delete-roles:disabled{
+  background-color: rgb(239, 170, 170); 
+  border: 1px solid rgb(239, 170, 170);
+  
+}
+
+.roleCheckbox {
+  width: 15px;
+  height: 15px;
+}
+
+#roleNameTableHead {
+  text-align: left;
+  padding-left: 4vw;
+}
+
+#roleDescriptionTableHead {
+  text-align: left;
+  padding-left: 10vw;
+}
+
+.roleName {
+  color: rgb(53, 120, 235);
+  text-align: left;
+  padding-left: 4vw;
+  cursor: pointer;
+}
+
+.roleName:hover {
+  color: rgb(12, 76, 186);
+}
+
+.roleDescription {
+  text-align: left;
+  padding-left: 10vw; 
+}
+
+.disableLink{
+  color: rgb(201, 201, 201);
+  text-align: left;
+}
+
+.disableDescription{
+  color: rgb(201, 201, 201);
+  text-align: left;
+  padding-left: 10vw;
+}
+
+.disableName{
+  color: rgb(201, 201, 201);
+  text-align: left;
+  padding-left: 4vw;
+}
+
+.disableLink:hover{
+  text-decoration: none;
+  color: rgb(201, 201, 201);
+  cursor: default;
+}
+

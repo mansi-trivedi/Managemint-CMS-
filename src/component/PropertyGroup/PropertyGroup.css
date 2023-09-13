@@ -1,0 +1,84 @@
+.propertyGroupContent {
+  float: right;
+  width: 83%;
+  height: 91vh;
+  overflow: hidden;
+}
+
+.major-content {
+  padding: 10px;
+}
+
+.contentHeadGroup {
+  display: flex;
+  align-items: center;
+  margin: 1.4vh 1vh 0vh 2vh;
+}
+
+.contentHeadGrouptitle1 {
+  width: auto;
+  font-weight: 600;
+  margin-right: 5px;
+  font-size: larger;
+}
+
+.contentHeadGrouptitle2 {
+  padding-top: 0vh;
+  font-size: 2.5vh;
+  color: rgb(113, 113, 113);
+}
+
+#desc-head {
+  margin: 2.5vh;
+  width: 8%;
+  font-weight: 600;
+  font-size: larger;
+}
+
+#desc-text {
+  padding-top: 3vh;
+  font-size: 2.5vh;
+  color: rgb(113, 113, 113);
+}
+
+
+.searchbar {
+    padding: 5px 0px 0px 5px;
+}
+.searchbar-buttons-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+}
+
+.propertyGroupDivision{
+  padding-bottom: 30px;
+}
+
+.editGroupName label{
+  margin-bottom: 2px;
+  font-weight: 500;
+}
+
+
+.editGroupName {
+  text-align: start;
+}
+
+.deleteGroupModalBody {
+  text-align: start;
+}
+
+.propertyGroupbutton{
+  background-color: rgb(99, 150, 240);
+  border: 1px solid rgb(99, 150, 240);
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.propertyGroupbutton:hover{
+  background-color: rgb(53, 120, 235);
+  border: 1px solid rgb(53, 120, 235);
+}
+

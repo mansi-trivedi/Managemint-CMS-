@@ -1,0 +1,170 @@
+.taxonomyContent {
+    float: right;
+    width: 83%;
+    height: 91vh;
+}
+
+.taxonomyContentHead {
+    display: flex;
+    align-items: center;
+    margin: 1.4vh 1vh 0vh 2vh;
+}
+
+.taxonomyContentHeadTitle1 {
+    font-weight: 600;
+    font-size: larger;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.taxonomyContentHeadTitle2 {
+    padding-top: 0.5vh;
+    font-size: 2.5vh;
+    color: rgb(113, 113, 113);
+}
+
+.addEditPropertyButton {
+    position: relative;
+    left: 13vh;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.taxonomySettingButton {
+    position: relative;
+    left: -5vh;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.propertydraganddrop {
+    height: 44vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.unselectedpropertycontent {
+    height: 45vh;
+    border: 1px solid rgb(153, 153, 153);
+}
+
+.selectedcontent {
+    height: 45vh;
+    border: 1px solid rgb(153, 153, 153);
+    list-style: none;
+    padding: 5px 10px;
+    overflow: auto;
+}
+
+#myInput1 {
+    border-bottom: 1px solid rgb(142, 142, 142);
+    height: 5vh;
+    border-radius: 0px;
+}
+
+.unselectedcontentlist {
+    overflow: auto;
+    height: 39.5vh;
+    padding-left: 10px;
+}
+
+.availablecontentlist li:hover {
+    background-color: aliceblue;
+}
+
+.taxonomyName {
+    padding: 5px 10px;
+}
+
+.taxonomyName label {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.taxonomyInput {
+    width: 100%;
+    padding-left: 8px;
+}
+
+.deletetaxonomyButton {
+    position: relative;
+    top: 1vh;
+    left: 2vh;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.deletetaxonomyButton:hover {
+    background-color: rgb(193, 1, 1);
+    color: white;
+}
+
+.Delete {
+    display: flex;
+    align-items: center;
+}
+
+.Deletehead2 {
+    margin-top: 8px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    color: rgb(74, 124, 210);
+    font-size: large;
+    font-weight: 500;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.Deletehead1 {
+    padding-top: 5px;
+}
+
+.DeletePara {
+    font-size: small;
+    font-style: italic;
+    font-weight: 500;
+    padding-top: 0px;
+    color: red;
+}
+
+.draganddropstatement {
+    color: rgb(83, 146, 255);
+    font-weight: 500;
+}
+
+.taxonomyButton {
+    background-color: rgb(99, 150, 240);
+    border: 1px solid rgb(99, 150, 240);
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.taxonomyButton:hover {
+    background-color: rgb(53, 120, 235);
+    border: 1px solid rgb(53, 120, 235);
+    border-radius: 5px;
+}
+
+/* .taxonomyButton:focus {
+    background-color: rgb(53, 120, 235);
+    border: 1px solid rgb(53, 120, 235);
+    font-weight: 500;
+    border-radius: 5px;
+    box-shadow: none;
+} */
+
+@media only screen and (max-width:800px) {
+    .taxonomySettingButton{
+      left: 0vh;
+    }
+
+    .addEditPropertyButton{
+        left: -3vh;
+    }
+  }

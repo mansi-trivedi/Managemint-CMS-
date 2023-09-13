@@ -1,0 +1,141 @@
+.Recordcontent {
+  float: right;
+  width: 85%;
+}
+
+.breadcrumb-item a {
+  font-size: large;
+  font-weight: 500;
+}
+
+.navBreadcrumb {
+  height: 8vh;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.breadcrumb {
+  margin-top: 5px;
+  height: 7vh;
+}
+
+.searchbar-buttons-div {
+  padding: 2px 15px 7px 9px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#myInput {
+  width: 40vw;
+}
+
+.action-button {
+  color: white;
+  background-color: rgb(97, 94, 94);
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.action-button:hover {
+  border: 2px solid rgb(124, 166, 239);
+}
+
+.pagination-div {
+  display: flex;
+  width: 30%;
+  position: relative;
+  left: 70%;
+}
+
+.pagination-details-div {
+  font-weight: 500;
+  padding: 6.5px;
+  font-style: oblique;
+  width: 60%;
+}
+
+.pagination-numbers {
+  font-weight: 700;
+}
+
+.pagination-buttons-div {
+  width: 50%;
+}
+
+.pagination-button {
+  background-color: rgb(124, 166, 239);
+  color: white;
+  font-weight: 600;
+  padding: 1px;
+  margin: 4.6px 5px 3px 0px;
+  border-radius: 8px;
+  height: 78%;
+  width: 18%;
+  border: none;
+}
+.pagination-button-currentPage {
+  background-color: rgb(124, 166, 239)  ;
+  color: white;
+  font-weight: 600;
+  padding: 1px;
+  margin: 4.6px 5px 3px 0px;
+  border-radius: 8px;
+  height: 78%;
+  width: 18%;
+  border: none;
+}
+
+.pagination-button:hover {
+  background-color: rgb(74, 124, 210) ;
+  color: white;
+  font-weight: 600;
+  padding: 1px;
+  margin: 4.6px 5px 3px 0px;
+  border-radius: 8px;
+  height: 78%;
+  width: 18%;
+  border: none;
+}
+
+.pagination-button-disabled {
+  background-color: rgb(168, 193, 236);
+  color: white;
+  font-weight: 600;
+  padding: 1px;
+  margin: 4.6px 5px 3px 0px;
+  border-radius: 8px;
+  height: 78%;
+  width: 18%;
+  border: none;
+}
+
+
+.addRecordButton{
+  background-color: rgb(99, 150, 240);
+  border: 1px solid rgb(99, 150, 240);
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.addRecordButton:hover{
+  background-color: rgb(53, 120, 235);
+  border: 1px solid rgb(53, 120, 235);
+}
+
+.addRecordButton:active{
+  background-color: rgb(53, 120, 235);
+  border: 1px solid rgb(53, 120, 235);
+  font-weight: 500;
+  box-shadow: none;
+}
+
+@media only screen and (max-width:800px) {
+  .pagination-div{
+    width: 45%;
+    left: 60%;
+  }
+}

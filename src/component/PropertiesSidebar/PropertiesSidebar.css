@@ -1,0 +1,99 @@
+.sidenavProperty {
+  float: left;
+  margin-top: 1.5px;
+  padding-top: 2px;
+  width: 17%;
+  height: 90.5vh;
+  background-color: rgb(247, 247, 247);
+  box-shadow: 8px 0 5px -6px rgb(218, 218, 218);
+}
+
+.p-management {
+  padding: 10px 0px 10px 0px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-management2 {
+  padding: 10px 0px 10px 0px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: ridge;
+  border: grey;
+  background-color: rgb(227, 231, 236);
+  border: dashed black 1px;
+}
+
+#p-sidebar-management-head {
+  font-weight: bold;
+  padding-right: 2px;
+}
+
+#downIcon {
+  margin-left: 5px;
+}
+
+.sidebarProperties-links {
+  cursor: pointer;
+  padding: 0px;
+}
+
+.properties-li{
+  padding: 5px;
+  padding-left: 30px;
+  margin: 5px 0px;
+  background-color: inherit;
+}
+
+.taxonomies-head-div {
+  padding: 10px 0px 10px 0px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.taxonomies-head-div2 {
+  padding: 10px 0px 10px 0px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(227, 231, 236);
+  border: 1px black dashed;
+}
+
+#taxonomies-head {
+  font-weight: bold;
+}
+
+.sidebarPropertiesTaxonomy-links{
+  height: 51vh;
+  overflow: auto;
+  margin-bottom: 0px;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.addtaxonomy {
+  margin: 10px 10px;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media only screen and (max-width:800px) {
+  .sidebarPropertiesTaxonomy-links{
+    height: 35vh;
+  }
+}
